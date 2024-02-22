@@ -11,10 +11,10 @@ body{
     padding: o.5rem;
 }
 .sidebar{
-    background-color: pink;
+    background-color: #000;
     width: 340px;
     border-radius: 1rem;   /*= 16px*/
-    
+    margin-right: 0.5rem;
 }
 .main-content{
     background-color: #121212;
@@ -84,4 +84,56 @@ a{
 }
 .icons i:hover{
     opacity: 1;
+}
+.box{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.8rem;
+    padding: 1rem 1.25rem ;
+    margin: 0.5rem 0 2rem 0;
+}
+.box-p1{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.box-p2{
+    font-size: 0.8rem;
+}
+.badge{
+    border-radius: 100px;
+    border: none;
+    background-color: #fff;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+}
+.dark-badge{
+    background-color: #000;
+    color: #fff;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+.navbar-icons{
+    margin-left: 0.75rem;
+}
+.navbar-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item{
+    margin-right: 2rem;
+}
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
 }
